@@ -9,19 +9,25 @@ import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
 
+
 const useStyles = makeStyles((theme) => ({
     root: {
+        verticalAlign: 'middle',
         display: 'flex',
+        padding: '200px',
+        opacity: 0.5,
+        backgroundColor: 'cadetblue',
+        //justifyContent: 'center',
     },
     details: {
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'row',
     },
     content: {
         flex: '1 0 auto',
     },
     cover: {
-        width: 151,
+        width: 190,
     },
     controls: {
         display: 'flex',
@@ -30,8 +36,8 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom: theme.spacing(1),
     },
     playIcon: {
-        height: 38,
-        width: 38,
+        height: 68,
+        width: 68,
     },
 }));
 
