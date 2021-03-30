@@ -64,8 +64,9 @@ export default function MediaControlCard() {
             </div>
             <CardMedia
                 className={classes.cover}
-                image="/static/images/cards/live-from-space.jpg"
-                title="Live from space album cover"
+                image="https://media2.giphy.com/media/Yra2PCUYMjOIbx2wgN/200w.webp?cid=ecf05e470o8rm25heaasdatr51v4r7hegx43okee163kulc9&rid=200w.webp"
+
+                title="Music Player Background"
             />
         </Card>
     );

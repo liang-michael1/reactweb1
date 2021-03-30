@@ -11,10 +11,10 @@ function Home() {
     return (
 
         <Grid container spacing={3}>
-            <Button />
-            <Button />
-            <Button />
-            <Button />
+            <Button buttonName="Library" />
+            <Button buttonName="Back" />
+            <Button buttonName="New Artist" />
+            <Button buttonName="Discover" />
             <MusicPlayer />
         </Grid>
 

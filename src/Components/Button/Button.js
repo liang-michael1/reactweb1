@@ -15,10 +15,11 @@ export default Button;
 
 // add props to () so that you can assign specific name to buttons 
 
-function Button() {
+function Button(props) {
     return (
         <div >
-            <button className="button">Clickes</button>
+
+            <button className="button" style={{ backgroundColor: `${props.color}` }}>{props.buttonName}</button>
         </div>
     )
 }
