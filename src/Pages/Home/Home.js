@@ -9,6 +9,7 @@ import MusicPlayer from '../../Components/MusicPlayer/MusicPlayer'
 
 function Home() {
     return (
+
         <Grid container spacing={3}>
             <Button />
             <Button />
@@ -16,6 +17,7 @@ function Home() {
             <Button />
             <MusicPlayer />
         </Grid>
+
     )
 }
 
